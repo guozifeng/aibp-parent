@@ -1,8 +1,8 @@
 spring.application.name=eureka-server
 server.port=1111
-eureka.instance.hostname=localhost
+eureka.instance.hostname=192.168.19.128
 
 eureka.client.register-with-eureka=false
 eureka.client.fetch-registry=false
 eureka.server.enableSelfPreservation=true
-eureka.client.serviceUrl.defaultZone=http://localhost:1111/eureka/
+eureka.client.serviceUrl.defaultZone=http://192.168.19.128:1111/eureka/
